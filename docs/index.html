@@ -4,70 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV-Web</title>
-    <link rel="stylesheet" href="styles.ccs">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <nav>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-body-tertiary" id="navbar" data-bs-theme="dark" style="top: 0px;">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <h2>Juan Daniel Primavera García</h2>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="row collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#top">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="acerca-de.html">ACERCA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="ariculos.html">HABILIDADES</a>
-                  </li>                  
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PROYECTOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">CONTACTOS</a>
-                  </li>
-                </ul>                
-              </div>
-            </div>
-          </nav>        
-    </nav>
+    <link rel="icon" href="favicon.ico">
 </head>
 <body class="bg-dark text-white container">
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-body-tertiary" id="navbar" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h2>Juan Daniel Primavera García</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#Inicio">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Acerca">ACERCA</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Habilidades">HABILIDADES</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Proyectos">PROYECTOS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Contacto">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
     <main>
-        <section>
-            <br>            
-            <h2 id="Inicio" class="text-center">Inicio</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, earum dignissimos. Porro unde similique, non ipsum itaque dolore odio quidem error, saepe veritatis eveniet ratione voluptates amet dolor voluptatibus tempora!</p>
+        <!-- Sección Inicio -->
+        <section id="Inicio">
+            <h2 class="text-center">Inicio</h2>
+            <p class="text-center">¡Hola! Soy Juan Primavera. Un apasionado estudiante de desarrollo de software interactivo y videojuegos en la Universidad Amerike. Con tan solo 18 años, ya estoy inmerso en el emocionante mundo de la creación de juegos.</p>
         </section>
-        <section>
-            <h2 id="Acerca">Acerca</h2>
-            <img src="/IMG/Mi Imagen.jpeg" class="card-img-top rounded-image" width="109000000" height="10" alt="img mobile">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum sunt iste obcaecati ipsa? Nobis optio harum dolorum, aspernatur vel eligendi libero iste inventore ea corporis earum. Aperiam similique alias vero.</p>
+
+        <!-- Sección Acerca -->
+        <section id="Acerca">
+            <h2>Acerca</h2>
+            <img src="/IMG/Mi_Imagen.jpeg" width="600" height="400"  alt="Mi Foto">
+            <p>Actualmente, me encuentro explorando diferentes aspectos de la programación y diseñando juegos que despierten la imaginación y entretengan a los jugadores. Puedes ver algunos de mis proyectos en mi página de itch.io ¡Espero que te gusten!</p>
         </section>
-        <section>
+
+        <!-- Sección Habilidades -->
+        <section id="Habilidades">
             <h2>Habilidades</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, saepe beatae laborum alias aut deserunt corporis quos vitae, numquam repellat, accusamus adipisci illum voluptates ratione sequi exercitationem quae magnam voluptatibus?</p>
+            <ul>
+                <li>Programación en C#, C++, HTML y CSS.</li>
+                <li>Desarrollo en Unity y uso de Arduino.</li>
+                <li>Uso de herramientas como Visual Studio y GitHub.</li>
+                <li>Diseño y desarrollo de videojuegos.</li>
+            </ul>
         </section>
-        <section>
+
+        <!-- Sección Proyectos -->
+        <section id="Proyectos">
             <h2>Proyectos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque facilis veniam ea, laudantium molestiae corrupti, quisquam, earum delectus ex pariatur. Voluptatibus culpa omnis maxime officiis delectus architecto velit vitae?</p>
+            <article>
+                <h3>Proyecto 1: Juego de Aventura</h3>
+                <img src="/IMG/Juego_1.png" width="300" height="200" alt="Juego de Aventura">
+                <p>Juego de exploración en 2D desarrollado en Unity.</p>
+            </article>
+            <article>
+                <h3>Proyecto 2: Juego De Exploracion</h3>
+                <img src="/IMG/Juego_2.png" width="300" height="200" alt="Juego de naves">
+                <p>Desarrollo de Un juego para pc y web con Unity.</p>
+            </article>
         </section>
-        <section>
+
+        <!-- Sección Contacto -->
+        <section id="Contacto">
             <h2>Contacto</h2>
-                <a class="linksf" href="https://github.com/OakIsland22">GitHub</a>
-                <br><br>
-                <a class="linksf" href="https://www.facebook.com/juan.primavera.313/">Facebook</a>
-                <br><br>
-                <a class="linksf" href="https://oakisland.itch.io/">itch.io</a>  
-                <br><br>  
-                <p>Correo: jpsyrelork@gmail.com</p>
+            <p>Correo: jpsyrelork@gmail.com</p>
+            <p><a href="https://github.com/OakIsland22">GitHub</a></p>
+            <p><a href="https://www.facebook.com/juan.primavera.313/">Facebook</a></p>
+            <p><a href="https://oakisland.itch.io/">itch.io</a></p>
         </section>
     </main>
+    <footer class="text-center mt-4">
+        <p>© 2025 Juan Daniel Primavera García - Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
