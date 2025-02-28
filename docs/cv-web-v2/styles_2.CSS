@@ -1,0 +1,296 @@
+/* Variables CSS */
+:root {
+   --color-primario: #ffcc00;
+   --color-secundario: #1e1e1e;
+   --color-texto: #ffffff;
+}
+
+/* Estilos generales para títulos */
+h2 {
+   font-size: 2rem;
+   color: var(--color-texto);
+   position: relative;
+   display: inline-block;
+   padding-bottom: 5px;
+   margin-bottom: 20px;
+}
+
+/* Línea resaltada debajo de los títulos */
+h2::after {
+   content: "";
+   width: 60%;
+   height: 4px;
+   background-color: var(--color-primario);
+   position: absolute;
+   bottom: -5px;
+   left: 50%;
+   transform: translateX(-50%);
+   border-radius: 5px;
+}
+
+/* Resaltar el nombre en la barra de navegación */
+.navbar-brand h2 {
+   font-size: 1.5rem;
+   color: var(--color-primario);
+   font-weight: bold;
+   position: relative;
+   display: inline-block;
+}
+
+/* Línea debajo del nombre en la barra de navegación */
+.navbar-brand h2::after {
+   content: "";
+   width: 100%;
+   height: 3px;
+   background-color: var(--color-primario);
+   position: absolute;
+   bottom: -3px;
+   left: 0;
+   border-radius: 5px;
+}
+
+/* Ajuste en la barra de navegación */
+.navbar {
+   background-color: var(--color-secundario) !important;
+   box-shadow: 0 4px 10px rgba(255, 251, 0, 0.5);
+   padding: 15px 0;
+}
+
+/* Ajustar las secciones con títulos resaltados */
+#Habilidades h2,
+#Proyectos h2,
+#Contacto h2 {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #121212;
+   color: var(--color-texto);
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+/* Aplicar box-sizing a todos los elementos */
+* {
+   box-sizing: border-box;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+   from { opacity: 0; transform: translateY(-20px); }
+   to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+   animation: fadeIn 1s ease-in-out;
+   padding: 50px 20px;
+   text-align: center;
+}
+
+/* Barra de navegación */
+.navbar {
+   background-color: var(--color-secundario) !important;
+   box-shadow: 0 4px 10px rgba(255, 251, 0, 0.5);
+}
+
+.navbar-brand h2 {
+   font-size: 1.5rem;
+   color: var(--color-primario);
+   font-weight: bold;
+}
+
+.nav-link {
+   color: var(--color-texto) !important;
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+   color: var(--color-primario) !important;
+}
+
+/* Hacer imágenes responsivas */
+img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+
+/* Botón flotante para volver arriba */
+#btnArriba {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background: var(--color-primario);
+   color: #121212;
+   padding: 10px 15px;
+   border-radius: 50%;
+   font-size: 1.5rem;
+   cursor: pointer;
+   box-shadow: 0 4px 10px rgba(255, 204, 0, 0.5);
+   transition: transform 0.3s ease-in-out;
+   display: none;
+}
+
+#btnArriba:hover {
+   transform: scale(1.2);
+}
+
+/* Sección Proyectos */
+#Proyectos article {
+   background: var(--color-secundario);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(255, 204, 0, 0.3);
+   margin-bottom: 20px;
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#Proyectos article:hover {
+   transform: scale(1.05);
+   box-shadow: 0px 10px 20px rgba(255, 204, 0, 0.6);
+}
+
+/* Habilidades */
+#Habilidades ul {
+   list-style: none;
+   padding: 0;
+}
+
+#Habilidades li {
+   background: var(--color-primario);
+   color: var(--color-secundario);
+   padding: 10px;
+   margin: 10px auto;
+   width: 60%;
+   border-radius: 5px;
+   font-weight: bold;
+   box-shadow: 0 4px 6px rgba(255, 204, 0, 0.3);
+}
+
+/* Contacto */
+#Contacto a {
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 1.2rem;
+   transition: all 0.3s ease-in-out;
+}
+
+#Contacto a:hover {
+   color: var(--color-texto);
+   text-shadow: 0px 0px 8px rgba(255, 0, 0, 0.8);
+}
+
+/* Formulario de contacto */
+form {
+   background: var(--color-secundario);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.5);
+   max-width: 500px;
+   margin: auto;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 2px solid var(--color-primario);
+   border-radius: 5px;
+   background: #121212;
+   color: var(--color-texto);
+}
+
+/* Botón de formulario */
+button {
+   background: var(--color-primario);
+   color: var(--color-secundario);
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+button:hover {
+   background: #ffffff;
+   color: var(--color-secundario);
+   transition: 0.3s;
+}
+
+/* Footer */
+footer {
+   background: var(--color-secundario);
+   text-align: center;
+   padding: 20px;
+   margin-top: 30px;
+   font-size: 0.9rem;
+   border-top: 3px solid var(--color-primario);
+}
+
+/* 3 Selectores de identificador (IDs) */
+#hero {
+   text-align: center;
+   padding: 50px;
+   background: linear-gradient(45deg, #1e1e1e, #121212);
+}
+
+#about {
+   padding: 40px;
+   background: #1a1a1a;
+}
+
+#skills {
+   padding: 30px;
+   background: #2a2a2a;
+}
+
+/* 3 Selectores de clase */
+.proyecto-card {
+   border: 2px solid var(--color-primario);
+   padding: 10px;
+   border-radius: 8px;
+}
+
+.boton-contacto {
+   display: inline-block;
+   padding: 10px 15px;
+   background: var(--color-primario);
+   color: var(--color-secundario);
+   text-decoration: none;
+   border-radius: 5px;
+}
+
+.resaltado {
+   font-weight: bold;
+   color: var(--color-primario);
+}
+
+/* 3 Selectores descendientes */
+nav ul li a {
+   text-transform: uppercase;
+}
+
+#Proyectos article img {
+   border-radius: 5px;
+}
+
+form input[type="text"] {
+   font-size: 1rem;
+}
+
+/* 3 Selectores de grupo */
+h1, h2, h3 {
+   font-weight: bold;
+}
+
+input, textarea {
+   font-size: 1rem;
+}
+
+footer p, footer a {
+   font-size: 0.9rem;
+}

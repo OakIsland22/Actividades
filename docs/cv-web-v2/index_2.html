@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Web-v2</title>
+    <link rel="stylesheet" href="styles_2.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="/docs/IMG/videojuego.png">
+</head>
+<body class="bg-dark text-white container">
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"><h2>Juan Daniel Primavera García</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">ACERCA</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#skills">HABILIDADES</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Proyectos">PROYECTOS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#Contacto">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="hero">
+            <h2 class="text-center">Inicio</h2>
+            <p class="text-center resaltado">¡Hola! Soy Juan Primavera. Un apasionado estudiante de desarrollo de software interactivo y videojuegos en la Universidad Amerike.</p>
+        </section>
+
+        <section id="about">
+            <h2>Acerca</h2>
+            <img src="/docs/IMG/Mi_Imagen.jpeg" width="600" height="400" alt="Mi Foto">
+            <p>Actualmente, me encuentro explorando diferentes aspectos de la programación y diseñando juegos. Puedes ver mis proyectos en <a href="https://oakisland.itch.io/" class="boton-contacto">itch.io</a>.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Programación en C#, C++, HTML y CSS.</li>
+                <li>Desarrollo en Unity y uso de Arduino.</li>
+                <li>Uso de herramientas como Visual Studio y GitHub.</li>
+                <li>Diseño y desarrollo de videojuegos.</li>
+            </ul>
+        </section>
+
+        <section id="Proyectos">
+            <h2>Proyectos</h2>
+            <article class="proyecto-card">
+                <h3>Juego de Aventura</h3>
+                <img src="/docs/IMG/Juego_1.png" width="300" height="200" alt="Juego de Aventura">
+                <p>Juego de exploración en 2D desarrollado en Unity.</p>
+            </article>
+            <article class="proyecto-card">
+                <h3>Juego De Exploración</h3>
+                <img src="/docs/IMG/Juego_2.png" width="300" height="200" alt="Juego de naves">
+                <p>Desarrollo de un juego para PC y web con Unity.</p>
+            </article>
+        </section>
+
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <p>Correo: jpsyrelork@gmail.com</p>
+            <p><a href="https://github.com/OakIsland22" class="boton-contacto">GitHub</a></p>
+            <p><a href="https://www.facebook.com/juan.primavera.313/" class="boton-contacto">Facebook</a></p>
+
+            <!-- Formulario de Contacto -->
+            <form id="contactForm">
+                <input type="text" placeholder="Tu Nombre" required>
+                <input type="email" placeholder="Tu Correo" required>
+                <textarea placeholder="Tu Mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>© 2025 Juan Daniel Primavera García - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script_2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
