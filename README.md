@@ -13,4 +13,4 @@ Este es un repositorio para subir actividades.
 
 - [Practica 5](https://oakisland22.github.io/Actividades/)
 
-- [Practica 6](https://oakisland22.github.io/Actividades/docs/practica-6,/Index.html)
+- [Practica 6](https://oakisland22.github.io/Actividades/practica-6,/Index.html)
