@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Tienda en Línea</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+    <h1>Simulador de Tienda en Línea</h1>
+
+    <!-- Sección de Productos (se llenará dinámicamente con JS) -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <div id="productos-container">Cargando productos...</div>
+    </section>
+
+    <!-- Mensaje de Compra -->
+    <section id="mensaje-compra" class="hidden">
+        <h2>¡Compra realizada con éxito!</h2>
+        <p>Gracias por su compra.</p>
+    </section>
+
+    <!-- Sección del Carrito -->
+    <section id="carrito" class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total-carrito">0</span></p>
+        <button id="btn-compra">Comprar</button>
+    </section>
+
+    <!-- Script -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
