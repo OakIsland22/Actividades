@@ -80,16 +80,16 @@ $passwordInput.addEventListener("input", () => {
 
   if (strength === 1) {
     $strengthBars[0].style.background = "red";
-    $passwordStrengthText.textContent = "Weak";
+    $passwordStrengthText.textContent = "Debil";
     $passwordStrengthText.style.color = "red";
   } else if (strength === 2) {
     $strengthBars[0].style.background = "orange";
     $strengthBars[1].style.background = "orange";
-    $passwordStrengthText.textContent = "Medium";
+    $passwordStrengthText.textContent = "Medio";
     $passwordStrengthText.style.color = "orange";
   } else if (strength === 3 || strength === 4) {
     $strengthBars.forEach(bar => bar.style.background = "green");
-    $passwordStrengthText.textContent = "Strong";
+    $passwordStrengthText.textContent = "Fuerte";
     $passwordStrengthText.style.color = "green";
   } else {
     $passwordStrengthText.textContent = "";
