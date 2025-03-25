@@ -17,4 +17,4 @@ Este es un repositorio para subir actividades.
 
 - [Practica 7](https://oakisland22.github.io/Actividades/practica-7/index.html)
 
-- [Practica 7](https://oakisland22.github.io/Actividades/practica-8/index.html)
+- [Practica 8](https://oakisland22.github.io/Actividades/practica-8/index.html)
