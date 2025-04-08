@@ -13,7 +13,7 @@ Hogar&Magia es una tienda online dedicada a ofrecer productos únicos y accesibl
 | Cuadro Minimalista        | Decoración de pared | $150   | Lienzo con diseño abstracto en blanco y negro    | Lienzo sobre bastidor  |
 
 ## Moodboard del diseño de la tienda
-![Moodboard](IMG/moodboard.png)
+![Moodboard](assets/moodboard.png)
 
 ## Algoritmo del proceso de compra
 
@@ -28,4 +28,4 @@ Hogar&Magia es una tienda online dedicada a ofrecer productos únicos y accesibl
 9. El cliente recibe su compra en casa.
 
 ## Diagrama de flujo del algoritmo
-![Diagrama de flujo](IMG/MapaFlujjo.png)
+![Diagrama de flujo](assets/MapaFlujjo.png)
