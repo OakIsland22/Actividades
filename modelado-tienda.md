@@ -94,6 +94,6 @@
 1. Crear línea de pedido.  
 2. Leer todos los detalles.  
 3. Leer los detalles de un pedido.  
-4. Leer los pedidos de un producto.  
+4. Leer los pedidos de un producto. 
 5. Actualizar detalle.  
 6. Eliminar detalle.  
