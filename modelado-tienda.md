@@ -48,13 +48,13 @@
 ![Diagrama Relacional - Hogar&Magia](assets/diagrama-relacional.png)
 
 ---
-
 ## 3. Relaciones entre Entidades
 
 1. Un **cliente** puede generar muchos **pedidos** (1:M).  
-2. Un **pedido** puede tener varios **detalles** (1:M).  
-3. Un **detalle** pertenece a un solo **producto** (M:1).  
-4. Un **producto** pertenece a una **categoría** (M:1).  
+2. Un **pedido** puede tener varios **detalles de pedido** (1:M).  
+3. Un **producto** puede aparecer en muchos **detalles de pedido** (1:M).  
+4. Una **categoría** puede tener muchos **productos** (1:M).
+
 
 ---
 
