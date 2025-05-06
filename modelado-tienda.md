@@ -97,3 +97,6 @@
 4. Leer los pedidos de un producto. 
 5. Actualizar detalle.  
 6. Eliminar detalle.  
+
+## 5. Diagrama Supabase
+![Diagrama Supabase](assets/diagrama-supabase.png)

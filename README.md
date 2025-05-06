@@ -23,4 +23,4 @@ Este es un repositorio para subir actividades.
 
 - [Practica 10](TiendaOnline.md)
 
-- [Practica 11](modelado-tienda.md)
+- [Practica 11 y 12](modelado-tienda.md)
